@@ -6,8 +6,10 @@ import registerServiceWorker from './registerServiceWorker';
 
 import Calculator from './boiling';
 import Calculator2 from './boiling2';
+import Composition from './composition';
+import Searchable from './searchable';
 
-const RootApp = Calculator2;
+const RootApp = Searchable;
 
 ReactDOM.render(<RootApp />, document.getElementById('root'));
 registerServiceWorker();
